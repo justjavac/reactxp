@@ -1,11 +1,11 @@
 <div class="nav-docs nav-blog">
   <div class="nav-docs-section">
-    <h3>Recent posts</h3>
+    <h3>最新文章</h3>
     <ul>
       {% for post in site.posts limit:10 %}
         <li><a href="{{ post.url }}"{% if page.title == post.title %} class="active"{% endif %}>{{ post.title }}</a></li>
       {% endfor %}
-      <li><a href="/blog/all.html">All posts ...</a></li>
+      <li><a href="/blog/all.html">所有文章 ...</a></li>
     </ul>
   </div>
 </div>
