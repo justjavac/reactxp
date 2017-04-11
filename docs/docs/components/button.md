@@ -12,7 +12,7 @@ Like View, this component is a generic container for other components. However, 
 This component supports only one child. If you require multiple child components, wrap them in a View.
 
 ## Props
-In addition to the [common accessibility props](/reactxp/docs/accessibility.html), the following props are supported.
+In addition to the [common accessibility props](/docs/accessibility.html), the following props are supported.
 
 ``` javascript
 // Alternate text to display if the image cannot be loaded
@@ -75,11 +75,11 @@ underlayColor?: string; // iOS and Android only
 
 ## Styles
 
-[**Flexbox Styles**](/reactxp/docs/styles.html#flexbox-style-attributes)
+[**Flexbox Styles**](/docs/styles.html#flexbox-style-attributes)
 
-[**View Styles**](/reactxp/docs/styles.html#view-style-attributes)
+[**View Styles**](/docs/styles.html#view-style-attributes)
 
-[**Transform Styles**](/reactxp/docs/styles.html#transform-style-attributes)
+[**Transform Styles**](/docs/styles.html#transform-style-attributes)
 
 ## Methods
 ``` javascript

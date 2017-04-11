@@ -10,7 +10,7 @@ next: components/view
 This component provides basic text input capabilities.
 
 ## Props
-In addition to the [common accessibility props](/reactxp/docs/accessibility.html), the following props are supported.
+In addition to the [common accessibility props](/docs/accessibility.html), the following props are supported.
 
 ``` javascript
 // Should fonts be scaled according to system setting?
@@ -100,13 +100,13 @@ value: string = undefined;
 ```
 
 ## Styles
-[**Text Styles**](/reactxp/docs/styles.html#text-style-attributes)
+[**Text Styles**](/docs/styles.html#text-style-attributes)
 
-[**Flexbox Styles**](/reactxp/docs/styles.html#flexbox-style-attributes)
+[**Flexbox Styles**](/docs/styles.html#flexbox-style-attributes)
 
-[**View Styles**](/reactxp/docs/styles.html#view-style-attributes)
+[**View Styles**](/docs/styles.html#view-style-attributes)
 
-[**Transform Styles**](/reactxp/docs/styles.html#transform-style-attributes)
+[**Transform Styles**](/docs/styles.html#transform-style-attributes)
 
 ## Methods
 ``` javascript
