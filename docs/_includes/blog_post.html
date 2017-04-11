@@ -1,0 +1,22 @@
+{% assign page = include.page %}
+
+<h1>
+{% if include.isPermalink %}
+  {{ page.title }}
+{% else %}
+  <a href="/reactxp{{ page.url }}">{{ page.title }}</a>
+{% endif %}
+</h1>
+
+<p class="meta">
+  {{ page.date | date: "%B %e, %Y" }}
+  by
+  <a href="{{ site.data.authors[page.author].url }}">{{ site.data.authors[page.author].name }}</a>
+</p>
+
+<hr>
+
+<div class="post">
+  {{ include.content }}
+</div>
+

@@ -28,10 +28,23 @@ build/Release
 
 # Dependency directories
 node_modules
-jspm_packages
+/samples/*/node_modules
 
 # Optional npm cache directory
 .npm
 
 # Optional REPL history
 .node_repl_history
+
+# Build artifacts
+/src/.vs
+/src/bin
+/src/obj
+/dist
+
+
+# Miscellaneous user files
+*.user
+.vscode
+.DS_STORE
+
