@@ -1,12 +1,12 @@
 theme: jekyll-theme-slate
 name: ReactXP
 description: A library for building cross-platform apps
-url: https://microsoft.github.io
-baseurl: /reactxp
+url: http://reactxp.justjavac.com
+baseurl: /
 permalink: /blog/:year/:month/:day/:title.html
 paginate_path: /blog/page:num/
 paginate: 5
-timezone: America/Los_Angeles
+timezone: Asia/Shanghai
 defaults:
 - scope:
     path: blog
