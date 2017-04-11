@@ -1,24 +1,24 @@
-- title: Quick Start
+- title: 快速开始
   items:
     - id: getting-started
       title: Getting Started
     - id: using-reactxp
-      title: Using ReactXP
+      title: 使用 ReactXP
     - id: faq
       title: FAQ
     - id: react_concepts
-      title: React Concepts
+      title: React 概念
     - id: react_lifecycle
-      title: Component Lifecycle
+      title: 组件生命周期
     - id: react_stores
-      title: Stores & Services
+      title: Stores 和 Services
     - id: styles
-      title: Styles
+      title: 样式
     - id: animations
-      title: Animations
+      title: 动画
     - id: accessibility
-      title: Accessibility
-- title: Components
+      title: 无障碍功能
+- title: 组件
   items:
     - id: components/activityindicator
       title: ActivityIndicator
