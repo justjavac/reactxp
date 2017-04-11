@@ -15,12 +15,12 @@ sectionid: blog
 
     <div class="pagination">
       {% if paginator.previous_page %}
-        <a href="/reactxp{{ paginator.previous_page_path }}" class="previous">
+        <a href="{{ paginator.previous_page_path }}" class="previous">
           &laquo; Previous Page
         </a>
       {% endif %}
       {% if paginator.next_page %}
-        <a href="/reactxp{{ paginator.next_page_path }}" class="next">
+        <a href="{{ paginator.next_page_path }}" class="next">
           Next Page &raquo;
         </a>
       {% endif %}
